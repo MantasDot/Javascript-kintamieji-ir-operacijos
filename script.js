@@ -1,4 +1,6 @@
+// Step 1.
 "Use-strict";
+
 // Step 2-3.
 var skaicius1 = 4;
 var skaicius2 = 9;
@@ -38,5 +40,16 @@ alert ('Skaicius1 =' + skaicius1 + '; Skaicius2 =' + skaicius2 + '; Skaicius3 ='
 var maxSkaicius = Number.MAX_VALUE
 console.log(maxSkaicius)
 
-// 
+// Papildoma
+var skaicius5 = 30;
+var skaicius6 = 60;
+
+
+
+skaicius5 = skaicius5 ^ skaicius6;
+skaicius6 = skaicius5 ^ skaicius6;
+skaicius5 = skaicius5 ^ skaicius6;
+console.log(skaicius5,skaicius6);
+
+function addTextNode(Rezultatas) 
 
